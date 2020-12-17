@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Note Taker App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main">
+<div id="center">
+<label for="noteTakerTitle" >Add a Note Title:</label>
+<input type="text" name="note" id="note">
+<br>
+<label for="noteTakerDesc">Add a Note Description:</label>
+<textarea name="noteDesc" id="noteDesc"> </textarea>
+<br>
+<br>
+<button type="button" id="submit" onclick="addNote()">Add Your Note!</button>
+</div>
+
+
+<div id="displayNotes">  
+	<div id="modal">
+		<div id="modal-content">
+		</div>
+		 
+	</div>
+ 
+</div>
+
+</div>
+
+<script src="function.js"></script>
+
+</body>
+
+</html>
